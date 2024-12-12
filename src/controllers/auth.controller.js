@@ -80,7 +80,7 @@ const logoutUser = async (req, res) => {
     secure: process.env.NODE_ENV === "production",
   });
 
-  res.status(200).redirect("https://task-management-system-33mi.onrender.com/");
+  res.status(200).redirect("https://task-mgt-system.onrender.com/");
 };
 
 module.exports = { registerUser, loginUser, logoutUser };
